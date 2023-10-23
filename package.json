@@ -1,0 +1,24 @@
+{
+  "name": "clack-chat-gpt",
+  "version": "1.0.0",
+  "description": "A chat GPT version in terminal",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "GPT"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": "William Kaiser",
+  "license": "ISC",
+  "bin": {
+    "chat": "./index.js"
+  },
+  "devDependencies": {
+    "@clack/prompts": "^0.7.0",
+    "cleye": "^1.3.2",
+    "openai": "^4.12.4",
+    "pkgroll": "^2.0.1"
+  }
+}
