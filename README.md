@@ -57,9 +57,9 @@ node .
 
 `clack-chat-gpt` is built on the following stack:
 
-- [openai](https://www.npmjs.com/package/openai) - chat completitions
+- [openai](https://www.npmjs.com/package/openai) - chat completions
 - [cleye](https://github.com/privatenumber/cleye) - command line interface parser
-- [clack](https://github.com/natemoo-re/clack) - textual user interafce
+- [clack](https://github.com/natemoo-re/clack) - textual user interface
 
 ## Inspiration
 
