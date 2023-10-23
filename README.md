@@ -1,3 +1,4 @@
+
 <a href="https://www.npmjs.com/package/clack-chat-gpt">
   <h1 align="center">ChatGPT in Terminal</h1>
 </a>
@@ -11,7 +12,7 @@ Chat with ChatGPT without leaving your beloved command line interface
   <a href="#install"><strong>Install</strong></a> ·
   <a href="#setting-up-locally"><strong>Setting Up Locally</strong></a> ·
   <a href="#tech-stack"><strong>Tech Stack</strong></a> ·
-  <a href="#contributing"><strong>Contributing</strong></a> ·
+  <a href="#inspiration"><strong>Inspiration</strong></a> ·
   <a href="#license"><strong>License</strong></a>
 </p>
 <br/>
@@ -19,6 +20,12 @@ Chat with ChatGPT without leaving your beloved command line interface
 ## Introduction
 
 `clack-chat-gpt` is a open-source AI chatbot ChatGPT wrapper which provides a beautiful user interface thanks to [Clack](https://github.com/natemoo-re/clack) and is available through `npm`.
+
+<div align="center">
+
+https://github.com/wkaisertexas/chatgpt/assets/27795014/663cfb31-a49e-46ee-af82-3d1202710316
+
+</div>
 
 ## Install
 
