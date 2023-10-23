@@ -21,7 +21,7 @@ if(prompt !== ""){
   const spinner = spinner();
   spinner.start("Thinking...");
 
-  const response = await getReponse(chatHistory)
+  const response = await getResponse(chatHistory)
   
   spinner.stop("Got response");
 
@@ -40,8 +40,7 @@ async function getResponse(chatHistory){
 async function promise(){
   const userPromptText = await text({
     message: "What do you want to say?",
-    placeholder: `send a mes
-sage (type 'exit' to quit)`,
+    placeholder: `send a message (type 'exit' to quit)`,
     validate: (value) => {
       if(!value) return "please enter a valid prompt"
     }
@@ -65,6 +64,11 @@ sage (type 'exit' to quit)`,
 
   console.log(generatedText)
   console.log("\n\n")
+
+  chatHistory.push({
+    role: 'system',
+    content: generatedText
+  })
   
   promise();
 }
